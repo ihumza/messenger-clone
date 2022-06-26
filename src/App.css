@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.app__form {
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  background-color: lightgray;
+  width: 98%;
+  margin: auto;
+}
+
+.app__logo {
+  width: 20%;
+}
+
+.app__messages {
+  margin-bottom: 100px;
+}
+
+.app__formControl {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.app__input {
+  flex: 2;
+}
+
+.app__iconButton {
+  flex: 1;
+}
